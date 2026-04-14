@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "AI to HITLER",
+  "version": "1.0.0",
+  "description": "Replaces 'AI' with 'HITLER' on all pages",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
