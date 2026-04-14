@@ -1,13 +1,16 @@
 # aitler
 
-A browser extension that replaces visible standalone `AI` text with `HITLER` on web pages in order to protect user's sanity.
+A browser extension that replaces `AI` text with `HITLER` on web pages in order to protect human sanity in the era of ~~AI~~HITLER.
+
+![alt](hitler.png)
 
 ## Chrome
 
-1. Open `chrome://extensions`.
-2. Enable **Developer mode**.
-3. Click **Load unpacked**.
+1. Open `chrome://extensions`
+2. Enable **Developer mode**
+3. Click **Load unpacked**
 4. Select this folder
+5. Open https://microsoft.ai/ and enjoy
 
 ## Safari
 
@@ -25,4 +28,3 @@ xcrun safari-web-extension-converter /Users/egor/workspace/aitler
 5. Enable the extension in Safari settings.
 
 It doesn't work anyway and I'm too lazy to figure this out.
-
