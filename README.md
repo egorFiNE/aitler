@@ -27,4 +27,10 @@ xcrun safari-web-extension-converter /Users/egor/workspace/aitler
 4. Build and run the wrapper app.
 5. Enable the extension in Safari settings.
 
-It doesn't work anyway and I'm too lazy to figure this out.
+It doesn't work anyway and I'm too lazy to figure this out. PRs most welcome.
+
+## Security implications
+
+You kidding? Nobody should ever install unverified extensions, let alone unpacked.
+
+I encourage you to take a look inside `content.js` and `manifest.json`. It's simple.
